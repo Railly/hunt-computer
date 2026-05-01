@@ -20,7 +20,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hunt.computer",
     description: "A workshop, not a studio. By Hunter, from Lima.",
-    images: ["/brand/01-hero-hunt-wordmark.png"],
   },
   twitter: { card: "summary_large_image" },
 };
