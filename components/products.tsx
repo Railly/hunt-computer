@@ -110,7 +110,7 @@ export function Products() {
                 className="group relative block aspect-[2/3] overflow-hidden border border-hairline"
               >
                 <Image
-                  src={`/cassettes/${p.slug}.png`}
+                  src={`/cassettes/${p.slug}.webp`}
                   alt={`${p.name} cassette cover`}
                   fill
                   sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
