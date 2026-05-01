@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { Arrow } from "./arrow";
 
 type Commit = {
   sha: string;
@@ -91,8 +92,8 @@ export function HeroTerminal() {
       {/* Commits */}
       <ul className="space-y-1">
         {commits.length === 0 && (
-          <li className="text-bone/60">
-            <span className="opacity-50">→</span> fetching commits…
+          <li className="flex items-center gap-2 text-bone/60">
+            <Arrow direction="e" className="opacity-50" /> fetching commits…
           </li>
         )}
         {commits.map((c) => (
@@ -129,7 +130,7 @@ export function HeroTerminal() {
             rel="noopener noreferrer"
             className="hover:text-hunt"
           >
-            github.com/Railly ↗
+            github.com/Railly <Arrow />
           </a>
         </div>
       )}

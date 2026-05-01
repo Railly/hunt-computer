@@ -1,4 +1,5 @@
 import { getBuildDate, getBuildSha } from "@/lib/build";
+import { Arrow } from "./arrow";
 import { Crosshair } from "./crosshair";
 import { ShippingStrip } from "./shipping-strip";
 
@@ -53,7 +54,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-hunt"
                 >
-                  GitHub ↗
+                  GitHub <Arrow />
                 </a>
               </li>
               <li>
@@ -63,7 +64,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-hunt"
                 >
-                  Twitter ↗
+                  Twitter <Arrow />
                 </a>
               </li>
               <li>
@@ -73,7 +74,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-hunt"
                 >
-                  railly.dev ↗
+                  railly.dev <Arrow />
                 </a>
               </li>
               <li>
@@ -83,7 +84,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-hunt"
                 >
-                  Crafter Station ↗
+                  Crafter Station <Arrow />
                 </a>
               </li>
             </ul>

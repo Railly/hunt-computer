@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { Arrow } from "./arrow";
 import { Crosshair } from "./crosshair";
 import { Reveal } from "./reveal";
 
@@ -132,7 +133,9 @@ export function Products() {
                       <span className="caption text-bone/70">
                         {p.role.toUpperCase()} / EST.{p.year}
                       </span>
-                      <span className="caption text-hunt">VISIT ↗</span>
+                      <span className="caption flex items-center gap-1 text-hunt">
+                        VISIT <Arrow />
+                      </span>
                     </div>
                   </div>
                 </div>

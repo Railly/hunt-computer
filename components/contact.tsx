@@ -1,3 +1,4 @@
+import { Arrow } from "./arrow";
 import { Crosshair } from "./crosshair";
 
 export function Contact() {
@@ -22,9 +23,9 @@ export function Contact() {
         </p>
         <a
           href="mailto:hello@hunt.computer"
-          className="mt-12 inline-block border border-bone px-6 py-3 text-sm transition-colors hover:bg-bone hover:text-hunt"
+          className="mt-12 inline-flex items-center gap-2 border border-bone px-6 py-3 text-sm transition-colors hover:bg-bone hover:text-hunt"
         >
-          HELLO@HUNT.COMPUTER →
+          HELLO@HUNT.COMPUTER <Arrow direction="e" />
         </a>
       </div>
     </section>

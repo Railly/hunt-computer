@@ -3,6 +3,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useRef } from "react";
+import { Arrow } from "./arrow";
 import { Crosshair } from "./crosshair";
 import { HeroTerminal } from "./hero-terminal";
 
@@ -83,7 +84,7 @@ export function Hero() {
               06.RELEASES
             </span>
             <span className="caption text-ink-muted">·</span>
-            <span className="caption">SCROLL ↓</span>
+            <span className="caption flex items-center gap-1">SCROLL <Arrow direction="s" /></span>
           </div>
         </div>
 
